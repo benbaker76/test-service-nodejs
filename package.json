@@ -1,0 +1,18 @@
+{
+  "name": "test-service-nodejs",
+  "version": "1.0.0",
+  "description": "Simple container that expose a service with common endpoints for testing a service (echo, echoheaders, hostname, fqdn, ip).",
+  "main": "test-service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/benbaker76/test-service-nodejs"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "benbaker76",
+  "license": "ISC"
+}
